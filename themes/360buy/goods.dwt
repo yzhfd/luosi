@@ -169,6 +169,19 @@
     </dl>
     <!-- {/foreach} -->
     <!-- {* 结束循环可选属性 *} -->
+     <!--{*循环打印商品价格*}-->
+    <table width="100%" class="volume_list">
+        <tr>
+        <!--{foreach from=$volume_price_list item=price}-->
+        <td>{$price.number1}</td>
+        <!--{/foreach}-->
+        </tr>
+        <tr>
+            <!--{foreach from=$volume_price_list item=price}-->
+            <td>{$price.format_price}</td>
+            <!--{/foreach}-->
+        </tr>
+    </table>
     <dl class='amount'>
       <dt>　我要买：</dt>
       <dd><a class='reduce' onclick="setAmount.reduce('#pamount')" href="javascript:void(0)">-</a>
