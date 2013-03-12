@@ -1,0 +1,21 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<table id="TechSheetTable" class="myDataTable">
+    <thead>
+       <tr class="even">
+           <td><span class="techtablehead">商品货号</span></td>
+        {foreach from=$filter_attr_list item=attr}
+        <td><span class="techtablehead">{$attr.filter_attr_name}</span></td>
+        {/foreach}
+        <td><span class="techtablehead">CAD</span></td>
+        </tr>
+    </thead> 
+    <!--{foreach from=$goods_list1 item=goods}-->
+    <tr>
+        <td>{$goods.name}</td>
+        {foreach from=$goods.attr_list item=attr}
+        <td>{$attr.attr_value}</td>
+        {/foreach}
+        <td>{CAD}</td>
+    </tr>
+    <!--{/foreach}-->
+</table>

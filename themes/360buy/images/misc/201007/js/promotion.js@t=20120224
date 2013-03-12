@@ -1,0 +1,89 @@
+function getPacks(result)
+{
+    /*
+    if (result.pack != null && result.pack != "")
+	{
+		$("#suit").html(result.pack);
+		$("#suit").show();
+		$("#suit").jdTab(
+		{
+			event:"click"
+		},setSuitWidth)
+		setSuitWidth("",$("#suit").find(".tabcon").eq(0));
+	}
+	*/
+	if (result.largess != null && result.largess != "")
+	{
+		$("#liLargess").html(result.largess);
+		$("#liLargess").show();
+	}
+
+	if (result.fujian != null && result.fujian != "") {
+	    if ($("#fujianContent").length <= 0)
+	        $("#bzqd").append(result.fujian);
+	      
+	}
+	
+	if (result.product != null && result.product != "")
+	{
+	    $("#cx").html(result.product);
+        $("#cx").show();
+	}
+	
+	if (result.price!=null && result.price!="")
+	{
+	    $("#promotion1").html(result.price);
+	}
+	
+	if (result.ext!=null && result.ext!="")
+	{
+	    $("#nocoupon").html(result.ext);
+	    $("#nocoupon").show();
+	}	
+	
+	if (result.oldtonew!=null && result.oldtonew!="")
+	{
+	    $("#service-trade").html(result.oldtonew);
+	    var iplocation = null;
+	    if (getCookie) iplocation = getCookie("ipLocation");
+	    if ((iplocation && result.oldtonew.indexOf(iplocation)>0)||!iplocation) { $("#service-trade").show(); }else{$("#service-trade").hide(); }
+	}
+	if(result.mfms != null && result.mfms != "")
+	{
+	    $("#mfms").html(result.mfms);
+	    $("#mfms").show();
+	}
+//	if(result.promoKey != null && result.promoKey != "")
+//	{
+//	    $("#choose").find("a").filter(".btn-append").each(function(){
+//	    
+//	        if(this.href != null && this.href != undefined && this.href.toLowerCase().indexOf('initcart.aspx') != -1)
+//	        {
+//	           this.href +="&promId="+result.promoKey;
+//	        }
+//	    });
+//	}
+}
+
+function refreshPack()
+{
+//	var url = window.location.href;
+//	var inx = url.lastIndexOf("/");
+//	
+//	
+//	if (url.indexOf("suite") > 0)
+//		inx = url.lastIndexOf("-");
+//		
+//	var so = url.substring(inx+1);
+//	inx = so.lastIndexOf(".");
+//	so = so.substring(0, inx);
+	var so = $("#name").attr("pshowskuid");
+	var infolab = "#cx";
+	//so = "101146"; 
+	$.getJSONP(
+		//"promotioninfo.aspx@callback=getPacks&pid="+so,
+		"../../price.360buy.com/promotioninfo.aspx@callback=getPacks&pid="+so,
+		getPacks);
+}
+
+refreshPack();

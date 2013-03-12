@@ -1,0 +1,24 @@
+.w{margin-bottom:10px;}
+.p-name{height:3em;word-wrap:break-word;}
+.e_box{width:990px;}
+.error{background:url(i/error_icon2.jpg) #fff no-repeat 99px center;padding:10px 0 15px 300px;font-size:14px;overflow:hidden;}
+.error h2{font-size:24px;margin-bottom:20px}
+.error img{display:inline;}
+.tip{border:1px solid #EAA465;padding:10px;background:#FFFEE1;margin-right:150px;margin-top:8px;}
+.tip dt{background:url(i/arrow_2.gif) no-repeat 0 3px;padding-left:15px;font-weight:bold;}
+.tip dd{padding:8px 15px;}
+.tip a:link,.tip a:visited{color:#005aa0;margin-right:15px;}
+/*Product_List_S7//NEW**image:130*98*/
+.Product_List_S7{padding:0 0 5px;margin:0 auto 0px;width:988px;background:url(i/pshow_bg_05.gif) #fff repeat-x top;border:1px solid #D9D9D9;overflow:hidden;}
+.Product_List_S7 ul{padding-top:10px;overflow:hidden;}
+.Product_List_S7 li{width:25%;text-align:center;padding:0px 40px 10px;overflow:hidden;*width:24.9%;float:left;}
+.Product_List_S7 li dl{padding:0 5px;margin:0 5px;zoom:1}
+.Product_List_S7 li dt{padding:5px 0;}
+.Product_List_S7 li dt img{width:100px;height:75px;margin:0 auto;}
+.Product_List_S7 li dd{padding:0 15px;line-height:18px;}
+.Product_List_S7 li .p_Name{line-height:15px;height:30px;margin:3px 0;overflow:hidden;}
+.Product_List_S7 li .p_Price{height:18px;overflow:hidden;}
+.Product_List_S7 li .p_Price img{display:inline;vertical-align:middle;}
+/*root61*/
+.root61 .e_box{width:1120px;}
+.root61 .Product_List_S7{width:1198px;}

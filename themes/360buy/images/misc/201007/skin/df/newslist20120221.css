@@ -1,0 +1,21 @@
+/*publish time:2012-02-20 11:15*/
+/*content*/
+.content{width:490px;}
+.content .mt{height:28px;background:url(i/bg_tit_home.gif) #E6E6E6 repeat-x 0 -128px;margin-bottom:5px;}
+.content h2{float:left;width:121px;height:28px;padding:0 10px;background:url(i/bg_tit_home.gif) no-repeat 0 -100px;color:#fff;line-height:28px;}
+.content .mt .extra{float:right;width:6px;height:28px;background:url(i/bg_tit_home.gif) no-repeat -205px -156px;}
+.content .mt .form{float:left;width:220px;padding-left:118px;height:28px;}
+.content .mt .text{width:160px;padding:2px;margin:4px 3px 0 0;border:1px inset #000;}
+.content .mt .btn-search{width:50px;height:22px;border:0;line-height:22px;text-align:center;background:url(i/bg_hotsale.gif) no-repeat 0 -632px;margin-top:3px;cursor:pointer;}
+.content .mc{border:1px solid #EBEBEB;margin-bottom:10px;}
+.content h5{padding:4px 8px;background:#F6F6F6;}
+.content h5 span{float:right;}
+.content ul{padding:8px;}
+.content li{padding:3px 0;height:24px;line-height:24px;overflow:hidden;zoom:1;}
+.content li div{float:left;margin-right:5px;}
+.content li span{float:right;margin-left:5px;color:#999;}
+.content li .line{float:none;height:10px;overflow:hidden;border-top:1px dotted #ccc;margin-top:11px;}
+/*root61*/
+.root61 .content{width:600px;}
+
+

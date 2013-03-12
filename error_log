@@ -1,0 +1,5 @@
+[30-Apr-2012 11:47:10] PHP Fatal error:  Call to undefined function get_history() in /home/rongduho/public_html/360xd.com/includes/cls_template.php(1161) : eval()'d code on line 118
+[30-Apr-2012 11:47:34] PHP Fatal error:  Call to undefined function get_history() in /home/rongduho/public_html/360xd.com/includes/cls_template.php(1161) : eval()'d code on line 118
+[30-Apr-2012 11:47:55] PHP Fatal error:  Call to undefined function get_history() in /home/rongduho/public_html/360xd.com/temp/compiled/page_header.lbi.php on line 118
+[30-Apr-2012 11:48:36] PHP Fatal error:  Call to undefined function get_history() in /home/rongduho/public_html/360xd.com/temp/compiled/page_header.lbi.php on line 118
+[30-Apr-2012 11:51:51] PHP Fatal error:  Call to undefined function get_history() in /home/rongduho/public_html/360xd.com/temp/compiled/page_header.lbi.php on line 118
