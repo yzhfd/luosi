@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:41:"E:/websites/luosi/themes/360buy/index.dwt";i:1;s:55:"E:/websites/luosi/themes/360buy/library/page_header.lbi";i:2;s:52:"E:/websites/luosi/themes/360buy/library/index_ad.lbi";i:3;s:56:"E:/websites/luosi/themes/360buy/library/cat_articles.lbi";i:4;s:55:"E:/websites/luosi/themes/360buy/library/ad_position.lbi";i:5;s:53:"E:/websites/luosi/themes/360buy/library/cat_goods.lbi";i:6;s:55:"E:/websites/luosi/themes/360buy/library/page_footer.lbi";}s:7:"expires";i:1363061396;s:8:"maketime";i:1363057796;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:41:"E:/websites/luosi/themes/360buy/index.dwt";i:1;s:55:"E:/websites/luosi/themes/360buy/library/page_header.lbi";i:2;s:52:"E:/websites/luosi/themes/360buy/library/index_ad.lbi";i:3;s:56:"E:/websites/luosi/themes/360buy/library/cat_articles.lbi";i:4;s:55:"E:/websites/luosi/themes/360buy/library/ad_position.lbi";i:5;s:53:"E:/websites/luosi/themes/360buy/library/cat_goods.lbi";i:6;s:55:"E:/websites/luosi/themes/360buy/library/page_footer.lbi";}s:7:"expires";i:1363075740;s:8:"maketime";i:1363072140;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.1" />
@@ -856,8 +856,7 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
               <li class="odd"><a href="article.php?id=42" title="工装夹具的发展" target="_blank">工装夹具的发展</a></li>
               <li ><a href="article.php?id=38" title="仙剑奇侠传桌游热售中！" target="_blank">仙剑奇侠传桌游热售中！</a></li>
             </ul>
-    </div>
- </div>
+    </div> </div>
   
   <div id="virtuals" class="m m3" data-widget="tabs">
     <div class="fore1 curr" data-widget="tab-item">
@@ -1354,7 +1353,6 @@ id="digitals"
 		  	</div>
   
   <span class="clr"></span> </div>
- 
 <div class="w w1" 
 id="digitals"
  

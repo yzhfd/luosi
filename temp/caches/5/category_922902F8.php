@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:44:"E:/websites/luosi/themes/360buy/category.dwt";i:1;s:55:"E:/websites/luosi/themes/360buy/library/page_header.lbi";i:2;s:51:"E:/websites/luosi/themes/360buy/library/ur_here.lbi";i:3;s:55:"E:/websites/luosi/themes/360buy/library/goods_list1.lbi";i:4;s:52:"E:/websites/luosi/themes/360buy/library/cat_tree.lbi";i:5;s:53:"E:/websites/luosi/themes/360buy/library/goods_new.lbi";i:6;s:53:"E:/websites/luosi/themes/360buy/library/goods_hot.lbi";i:7;s:51:"E:/websites/luosi/themes/360buy/library/history.lbi";i:8;s:55:"E:/websites/luosi/themes/360buy/library/page_footer.lbi";}s:7:"expires";i:1362478291;s:8:"maketime";i:1362474691;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:44:"E:/websites/luosi/themes/360buy/category.dwt";i:1;s:55:"E:/websites/luosi/themes/360buy/library/page_header.lbi";i:2;s:51:"E:/websites/luosi/themes/360buy/library/ur_here.lbi";i:3;s:55:"E:/websites/luosi/themes/360buy/library/goods_list1.lbi";i:4;s:52:"E:/websites/luosi/themes/360buy/library/cat_tree.lbi";i:5;s:53:"E:/websites/luosi/themes/360buy/library/goods_new.lbi";i:6;s:53:"E:/websites/luosi/themes/360buy/library/goods_hot.lbi";i:7;s:51:"E:/websites/luosi/themes/360buy/library/history.lbi";i:8;s:55:"E:/websites/luosi/themes/360buy/library/page_footer.lbi";}s:7:"expires";i:1363075740;s:8:"maketime";i:1363072140;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
 <meta name="Generator" content="ECSHOP v2.7.1" />
@@ -357,11 +357,11 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
                 <dt>推荐品牌</dt>
                 <dd>
                   <ul>
-				  				                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=2&amp;brand=11">格兰仕</a></li>
-                                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=2&amp;brand=17">格力</a></li>
+				  				                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=2&amp;brand=17">格力</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=2&amp;brand=10">西门子</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=2&amp;brand=14">创维</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=2&amp;brand=18">TCL</a></li>
+                                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=2&amp;brand=11">格兰仕</a></li>
                                      
                   </ul>
                 </dd>
@@ -520,8 +520,7 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
                 <dt>推荐品牌</dt>
                 <dd>
                   <ul>
-				  				                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=5">联想打印机</a></li>
-                                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=1">戴尔</a></li>
+				  				                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=1">戴尔</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=8">希捷</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=4">惠普</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=7">D-Link</a></li>
@@ -529,6 +528,7 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=6">三星</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=2">宏基</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=9">Intel</a></li>
+                                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=4&amp;brand=5">联想打印机</a></li>
                                      
                   </ul>
                 </dd>
@@ -659,11 +659,11 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
                 <dt>推荐品牌</dt>
                 <dd>
                   <ul>
-				  				                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=6&amp;brand=13">老板</a></li>
-                                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=6&amp;brand=12">贝尔莱德</a></li>
+				  				                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=6&amp;brand=12">贝尔莱德</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=6&amp;brand=19">李宁</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=6&amp;brand=23">七匹狼</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=6&amp;brand=27">佐丹奴</a></li>
+                                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=6&amp;brand=13">老板</a></li>
                                      
                   </ul>
                 </dd>
@@ -724,12 +724,12 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
                 <dt>推荐品牌</dt>
                 <dd>
                   <ul>
-				  				                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=7&amp;brand=27">佐丹奴</a></li>
-                                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=7&amp;brand=21">缪诗</a></li>
+				  				                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=7&amp;brand=21">缪诗</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=7&amp;brand=20">猫人</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=7&amp;brand=25">她他tata</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=7&amp;brand=22">其乐</a></li>
                                       <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=7&amp;brand=26">添香</a></li>
+                                      <li style="float:left;width:97px;"><a target="_blank" href="category.php?id=7&amp;brand=27">佐丹奴</a></li>
                                      
                   </ul>
                 </dd>
@@ -859,8 +859,7 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
                 <td>1</td>
                 <td>{CAD}</td>
     </tr>
-    </table>
-                </div>
+    </table>                </div>
                <div class="tech">
                    <div class="title">技术信息</div>
                    <div class="install"></div>
@@ -975,8 +974,7 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
 		            element.addClass("current");
 	            }
             })
-            </script>    
-                <div class="m limitbuy hide" id="limitbuy537" clstag="thirdtype|keycount|thirdtype|limitbuy536">
+            </script>                <div class="m limitbuy hide" id="limitbuy537" clstag="thirdtype|keycount|thirdtype|limitbuy536">
                     <div class="mt">
                         <h2>消费电子限时抢购</h2>
                     </div>
@@ -992,8 +990,7 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
       </div>
       <div class="mc">
 	        </div>
-    </div>
-                
+    </div>                
                                 <div class="m rank">
       <div class="mt">
         <h2>热销排行榜</h2>
@@ -1002,8 +999,7 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
         <ul class="tabcon">
                   </ul>
       </div>
-    </div>
-                
+    </div>                
                 <div id="alsobuy" class="hide m m0"></div>
                 
                 <div class="m" id="recent">
@@ -1028,9 +1024,7 @@ function clear_history_Response(res)
 {
 document.getElementById('history_list').innerHTML = '<li><div class="norecode">暂无记录!</div></li>';
 }
-</script>
-    
-                <div class="m" clstag="thirdtype|keycount|thirdtype|m" id="da211x261-1"> </div>
+</script>                <div class="m" clstag="thirdtype|keycount|thirdtype|m" id="da211x261-1"> </div>
             </div>
             
             <span class="clr"></span>

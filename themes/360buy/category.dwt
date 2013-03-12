@@ -66,10 +66,6 @@
                 <!--i-right end-->
                 <!--{/if}-->
                 <!--{if $is_goods}-->
-                  <?php
-                $cat_info = get_cat_info_ex($GLOBALS['smarty']->_var['category']);
-                $GLOBALS['smarty']->assign('cat_name',$cat_info['cat_name']);
-                ?>
                 <div class="description">
                     <div class="imgbox">
                         <img src="{$cat_info.cat_img}"/>

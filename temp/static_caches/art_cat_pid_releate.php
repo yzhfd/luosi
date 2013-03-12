@@ -2,32 +2,6 @@
 $data = array (
   0 => 
   array (
-    'cat_id' => '9',
-    'cat_name' => '网站快报',
-    'cat_type' => '1',
-    'keywords' => '',
-    'cat_desc' => '',
-    'sort_order' => '50',
-    'show_in_nav' => '1',
-    'parent_id' => '0',
-    'has_children' => '0',
-    'aricle_num' => '7',
-  ),
-  1 => 
-  array (
-    'cat_id' => '10',
-    'cat_name' => '在线读书',
-    'cat_type' => '1',
-    'keywords' => '',
-    'cat_desc' => '',
-    'sort_order' => '50',
-    'show_in_nav' => '0',
-    'parent_id' => '0',
-    'has_children' => '0',
-    'aricle_num' => '3',
-  ),
-  2 => 
-  array (
     'cat_id' => '11',
     'cat_name' => '商品页售后文章分类',
     'cat_type' => '1',
@@ -39,7 +13,7 @@ $data = array (
     'has_children' => '0',
     'aricle_num' => '3',
   ),
-  3 => 
+  1 => 
   array (
     'cat_id' => '1',
     'cat_name' => '系统分类',
@@ -51,6 +25,32 @@ $data = array (
     'parent_id' => '0',
     'has_children' => '2',
     'aricle_num' => '0',
+  ),
+  2 => 
+  array (
+    'cat_id' => '9',
+    'cat_name' => '网站快报',
+    'cat_type' => '1',
+    'keywords' => '',
+    'cat_desc' => '',
+    'sort_order' => '50',
+    'show_in_nav' => '1',
+    'parent_id' => '0',
+    'has_children' => '0',
+    'aricle_num' => '7',
+  ),
+  3 => 
+  array (
+    'cat_id' => '10',
+    'cat_name' => '在线读书',
+    'cat_type' => '1',
+    'keywords' => '',
+    'cat_desc' => '',
+    'sort_order' => '50',
+    'show_in_nav' => '0',
+    'parent_id' => '0',
+    'has_children' => '0',
+    'aricle_num' => '3',
   ),
   4 => 
   array (
@@ -80,19 +80,6 @@ $data = array (
   ),
   6 => 
   array (
-    'cat_id' => '8',
-    'cat_name' => '特色服务',
-    'cat_type' => '5',
-    'keywords' => '',
-    'cat_desc' => '',
-    'sort_order' => '50',
-    'show_in_nav' => '0',
-    'parent_id' => '3',
-    'has_children' => '0',
-    'aricle_num' => '6',
-  ),
-  7 => 
-  array (
     'cat_id' => '4',
     'cat_name' => '购物指南',
     'cat_type' => '5',
@@ -104,7 +91,7 @@ $data = array (
     'has_children' => '0',
     'aricle_num' => '6',
   ),
-  8 => 
+  7 => 
   array (
     'cat_id' => '5',
     'cat_name' => '配送方式',
@@ -117,7 +104,7 @@ $data = array (
     'has_children' => '0',
     'aricle_num' => '5',
   ),
-  9 => 
+  8 => 
   array (
     'cat_id' => '6',
     'cat_name' => '支付方式',
@@ -130,10 +117,23 @@ $data = array (
     'has_children' => '0',
     'aricle_num' => '6',
   ),
-  10 => 
+  9 => 
   array (
     'cat_id' => '7',
     'cat_name' => '售后服务',
+    'cat_type' => '5',
+    'keywords' => '',
+    'cat_desc' => '',
+    'sort_order' => '50',
+    'show_in_nav' => '0',
+    'parent_id' => '3',
+    'has_children' => '0',
+    'aricle_num' => '6',
+  ),
+  10 => 
+  array (
+    'cat_id' => '8',
+    'cat_name' => '特色服务',
     'cat_type' => '5',
     'keywords' => '',
     'cat_desc' => '',

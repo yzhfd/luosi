@@ -133,13 +133,13 @@ if ($this->_foreach['best_goods']['total'] > 0):
                     </dl>
                     <?php endif; ?>
 
-                    <?php $_from = $this->_var['filter_attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'filter_attr_0_76969300_1362473982');if (count($_from)):
-    foreach ($_from AS $this->_var['filter_attr_0_76969300_1362473982']):
+                    <?php $_from = $this->_var['filter_attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'filter_attr_0_41813400_1363072140');if (count($_from)):
+    foreach ($_from AS $this->_var['filter_attr_0_41813400_1363072140']):
 ?>
                     <dl  >
-                        <dt><?php echo htmlspecialchars($this->_var['filter_attr_0_76969300_1362473982']['filter_attr_name']); ?> ：</dt>
+                        <dt><?php echo htmlspecialchars($this->_var['filter_attr_0_41813400_1363072140']['filter_attr_name']); ?> ：</dt>
                         <dd>
-                            <?php $_from = $this->_var['filter_attr_0_76969300_1362473982']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
+                            <?php $_from = $this->_var['filter_attr_0_41813400_1363072140']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
     foreach ($_from AS $this->_var['attr']):
 ?>
                             <div><a href='<?php echo $this->_var['attr']['url']; ?>' <?php if ($this->_var['attr']['selected']): ?>class="curr"<?php endif; ?>><?php echo $this->_var['attr']['attr_value']; ?></a></div>

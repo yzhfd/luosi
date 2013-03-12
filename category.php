@@ -243,6 +243,7 @@ if (!$smarty->is_cached('category.dwt', $cache_id)) {
     $smarty->assign('page_title', $position['title']);    // ҳ�����
     $smarty->assign('ur_here', $position['ur_here']);  // ��ǰλ��
     $smarty->assign('is_goods', $cat['is_goods']);
+    $smarty->assign('cat_info', $cat);
 
     $smarty->assign('categories', get_categories_tree($cat_id)); // ������
     $smarty->assign('helps', get_shop_help());              // ������
@@ -323,7 +324,7 @@ $smarty->display('category.dwt', $cache_id);
  * @return  void
  */
 function get_cat_info($cat_id) {
-    return $GLOBALS['db']->getRow('SELECT cat_name, is_goods,keywords, cat_desc, style, grade, filter_attr, parent_id FROM ' . $GLOBALS['ecs']->table('category') .
+    return $GLOBALS['db']->getRow('SELECT * FROM ' . $GLOBALS['ecs']->table('category') .
                     " WHERE cat_id = '$cat_id'");
 }
 
