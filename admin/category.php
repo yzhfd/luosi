@@ -104,10 +104,14 @@ if ($_REQUEST['act'] == 'insert') {
     $cat['filter_attr'] = !empty($_POST['filter_attr']) ? implode(',', array_unique(array_diff($_POST['filter_attr'], array(0)))) : 0;
 
     $cat['cat_recommend'] = !empty($_POST['cat_recommend']) ? $_POST['cat_recommend'] : array();
-    $img_name = basename($image->upload_image($_FILES['cat_img'], "catimg"));
-    $cat['cat_img']=$img_name;
-    $img_name = basename($image->upload_image($_FILES['use_img'], "catimg"));
-    $cat['use_img']=$img_name;
+    if ($_FILES['cat_img']['tmp_name'] != 'none') {
+        $img_name = basename($image->upload_image($_FILES['cat_img'], "catimg"));
+        $cat['cat_img'] = $img_name;
+    }
+    if ($_FILES['use_img']['tmp_name'] != 'none') {
+        $img_name = basename($image->upload_image($_FILES['use_img'], "catimg"));
+        $cat['use_img'] = $img_name;
+    }
 
     if (cat_exists($cat['cat_name'], $cat['parent_id'])) {
         /* 同级别下不能有重复的分类名称 */
@@ -247,10 +251,14 @@ if ($_REQUEST['act'] == 'update') {
     $cat['grade'] = !empty($_POST['grade']) ? intval($_POST['grade']) : 0;
     $cat['filter_attr'] = !empty($_POST['filter_attr']) ? implode(',', array_unique(array_diff($_POST['filter_attr'], array(0)))) : 0;
     $cat['cat_recommend'] = !empty($_POST['cat_recommend']) ? $_POST['cat_recommend'] : array();
-    $img_name = basename($image->upload_image($_FILES['cat_img'],"catimg", $_POST['old_catimg']));
-    $cat['cat_img']=$img_name;
-     $img_name = basename($image->upload_image($_FILES['use_img'],"catimg", $_POST['old_useimg']));
-    $cat['use_img']=$img_name;
+    if ($_FILES['cat_img']['tmp_name']) {
+        $img_name = basename($image->upload_image($_FILES['cat_img'], "catimg"));
+        $cat['cat_img'] = $img_name;
+    }
+    if ($_FILES['use_img']['tmp_name']) {
+        $img_name = basename($image->upload_image($_FILES['use_img'], "catimg"));
+        $cat['use_img'] = $img_name;
+    }
     /* 判断分类名是否重复 */
 
     if ($cat['cat_name'] != $old_cat_name) {
@@ -315,43 +323,37 @@ if ($_REQUEST['act'] == 'update') {
         sys_msg($_LANG['catedit_succed'], 0, $link);
     }
 }
-/* 删除卡片图片 */
-elseif ($_REQUEST['act'] == 'drop_cat_img')
-{
+/* 删除卡片图片 */ elseif ($_REQUEST['act'] == 'drop_cat_img') {
     /* 权限判断 */
     admin_priv('cat_manage');
     $cat_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
     /* 取得logo名称 */
-    $sql = "SELECT cat_img FROM " .$ecs->table('category'). " WHERE cat_id = '$cat_id'";
+    $sql = "SELECT cat_img FROM " . $ecs->table('category') . " WHERE cat_id = '$cat_id'";
     $img_name = $db->getOne($sql);
 
-    if (!empty($img_name))
-    {
-        @unlink(ROOT_PATH . DATA_DIR . '/catimg/' .$img_name);
-        $sql = "UPDATE " .$ecs->table('category'). " SET cat_img = '' WHERE cat_id = '$cat_id'";
+    if (!empty($img_name)) {
+        @unlink(ROOT_PATH . DATA_DIR . '/catimg/' . $img_name);
+        $sql = "UPDATE " . $ecs->table('category') . " SET cat_img = '' WHERE cat_id = '$cat_id'";
         $db->query($sql);
     }
-    $link= array(array('text' => $_LANG['cat_edit_lnk'], 'href'=>'category.php?act=edit&cat_id=' .$cat_id), array('text' => $_LANG['03_category_list'], 'href'=>'category.php?act=list'));
+    $link = array(array('text' => $_LANG['cat_edit_lnk'], 'href' => 'category.php?act=edit&cat_id=' . $cat_id), array('text' => $_LANG['03_category_list'], 'href' => 'category.php?act=list'));
     sys_msg($_LANG['drop_cat_img_success'], 0, $link);
-}
-elseif ($_REQUEST['act'] == 'drop_use_img')
-{
+} elseif ($_REQUEST['act'] == 'drop_use_img') {
     /* 权限判断 */
     admin_priv('cat_manage');
     $cat_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
     /* 取得logo名称 */
-    $sql = "SELECT use_img FROM " .$ecs->table('category'). " WHERE cat_id = '$cat_id'";
+    $sql = "SELECT use_img FROM " . $ecs->table('category') . " WHERE cat_id = '$cat_id'";
     $img_name = $db->getOne($sql);
 
-    if (!empty($img_name))
-    {
-        @unlink(ROOT_PATH . DATA_DIR . '/catimg/' .$img_name);
-        $sql = "UPDATE " .$ecs->table('category'). " SET use_img = '' WHERE cat_id = '$cat_id'";
+    if (!empty($img_name)) {
+        @unlink(ROOT_PATH . DATA_DIR . '/catimg/' . $img_name);
+        $sql = "UPDATE " . $ecs->table('category') . " SET use_img = '' WHERE cat_id = '$cat_id'";
         $db->query($sql);
     }
-    $link= array(array('text' => $_LANG['cat_edit_lnk'], 'href'=>'category.php?act=edit&cat_id=' .$cat_id), array('text' => $_LANG['03_category_list'], 'href'=>'category.php?act=list'));
+    $link = array(array('text' => $_LANG['cat_edit_lnk'], 'href' => 'category.php?act=edit&cat_id=' . $cat_id), array('text' => $_LANG['03_category_list'], 'href' => 'category.php?act=list'));
     sys_msg($_LANG['drop_use_img_success'], 0, $link);
 }
 /* ------------------------------------------------------ */

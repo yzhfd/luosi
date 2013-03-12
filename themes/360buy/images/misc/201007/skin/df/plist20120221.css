@@ -341,3 +341,16 @@ table#TechSheetTable tr td {
     font-size: 11px;
     margin: 2px;
 }
+.install{
+    float: left;
+    width: 300px;
+}
+
+.root61 .installl_info{
+    width: 649px;
+}
+.installl_info{
+    float: left;
+    width: 429px;
+    padding: 10px;
+}

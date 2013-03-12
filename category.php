@@ -243,8 +243,14 @@ if (!$smarty->is_cached('category.dwt', $cache_id)) {
     $smarty->assign('page_title', $position['title']);    // ҳ�����
     $smarty->assign('ur_here', $position['ur_here']);  // ��ǰλ��
     $smarty->assign('is_goods', $cat['is_goods']);
+   
+    if($cat['cat_img']){
+        $cat['cat_img']=DATA_DIR."/catimg/".$cat['cat_img'];
+    } 
+     if($cat['use_img']){
+        $cat['use_img']=DATA_DIR."/catimg/".$cat['use_img'];
+    } 
     $smarty->assign('cat_info', $cat);
-
     $smarty->assign('categories', get_categories_tree($cat_id)); // ������
     $smarty->assign('helps', get_shop_help());              // ������
     $smarty->assign('top_goods', get_top10());                  // ��������

@@ -76,11 +76,10 @@
                 </div>
                <div class="tech">
                    <div class="title">技术信息</div>
-                   <div class="install">{$cat_info.use_img}</div>
-                   
+                   <div class="install"><img src="{$cat_info.use_img}"/></div>
                    <div class="installl_info">
-                       <div class="">{$cat_info.cat_desc}</div>
-                       <div class="">{$cat_info.cat_video}</div>
+                       <div class="cat_desc">{$cat_info.cat_desc}</div>
+                       <div class="cat_video">{$cat_info.cat_video}</div>
                    </div>
                </div>
                 <!--{else}-->

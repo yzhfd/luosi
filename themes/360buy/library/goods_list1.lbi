@@ -11,11 +11,11 @@
     </thead> 
     <!--{foreach from=$goods_list1 item=goods}-->
     <tr>
-        <td>{$goods.name}</td>
+        <td><a target="_blank" href="{$goods.url}">{$goods.name}</a></td>
         {foreach from=$goods.attr_list item=attr}
         <td>{$attr.attr_value}</td>
         {/foreach}
-        <td>{CAD}</td>
+        <td><a target="_blank" href="{$goods.url}">{CAD}</a></td>
     </tr>
     <!--{/foreach}-->
 </table>

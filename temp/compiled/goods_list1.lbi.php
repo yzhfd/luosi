@@ -14,13 +14,13 @@
     foreach ($_from AS $this->_var['goods']):
 ?>
     <tr>
-        <td><?php echo $this->_var['goods']['name']; ?></td>
+        <td><a target="_blank" href="<?php echo $this->_var['goods']['url']; ?>"><?php echo $this->_var['goods']['name']; ?></a></td>
         <?php $_from = $this->_var['goods']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
     foreach ($_from AS $this->_var['attr']):
 ?>
         <td><?php echo $this->_var['attr']['attr_value']; ?></td>
         <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
-        <td>{CAD}</td>
+        <td><a target="_blank" href="<?php echo $this->_var['goods']['url']; ?>">{CAD}</a></td>
     </tr>
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
 </table>
