@@ -239,7 +239,7 @@ if (!$smarty->is_cached('goods.dwt', $cache_id)) {
                 }
             }
         }
-        $smarty->assign('volume_price_list', $volume_price_list);    // 商品优惠价格区间
+        $smarty->assign('volume_price_list', $voulme_list);    // 商品优惠价格区间
     }
 }
 

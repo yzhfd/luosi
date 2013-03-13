@@ -79,7 +79,11 @@
                    <div class="install"><img src="{$cat_info.use_img}"/></div>
                    <div class="installl_info">
                        <div class="cat_desc">{$cat_info.cat_desc}</div>
-                       <div class="cat_video">{$cat_info.cat_video}</div>
+                       <div class="cat_video">
+                           
+                           <script src="/data/assets/flowplayer-3.2.6.min.js"></script><a href="/data/video/{$cat_info.cat_video}" style="display:block;width:400px;height:300px;" id="player"></a>
+                           <script language="JavaScript">flowplayer("player", "/data/assets/flowplayer-3.2.7.swf", {clip: {autoPlay: false, autoBuffering: true, onFinish: function() {this.stop();}}});</script>
+                       </div>
                    </div>
                </div>
                 <!--{else}-->

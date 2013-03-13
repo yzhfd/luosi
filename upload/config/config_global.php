@@ -5,8 +5,8 @@ $_config = array();
 
 // ----------------------------  CONFIG DB  ----------------------------- //
 $_config['db']['1']['dbhost'] = 'localhost';
-$_config['db']['1']['dbuser'] = 'axqz';
-$_config['db']['1']['dbpw'] = '243215';
+$_config['db']['1']['dbuser'] = 'root';
+$_config['db']['1']['dbpw'] = '';
 $_config['db']['1']['dbcharset'] = 'gbk';
 $_config['db']['1']['pconnect'] = '0';
 $_config['db']['1']['dbname'] = 'axqz';

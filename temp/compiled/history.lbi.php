@@ -9,14 +9,14 @@
 		       ?>
         <ul id="history_list">
           <?php if ($this->_var['historys']): ?>
-          <?php $_from = $this->_var['historys']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'item');$this->_foreach['historys'] = array('total' => count($_from), 'iteration' => 0);
+          <?php $_from = $this->_var['historys']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'item_0_16322900_1363162479');$this->_foreach['historys'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['historys']['total'] > 0):
-    foreach ($_from AS $this->_var['item']):
+    foreach ($_from AS $this->_var['item_0_16322900_1363162479']):
         $this->_foreach['historys']['iteration']++;
 ?>
           <li>
-            <div class="p-img"><a href="<?php echo $this->_var['item']['url']; ?>"><img src="<?php echo $this->_var['item']['goods_thumb']; ?>" width="50" height="50" /></a></div>
-            <div class="p-name"><a href="<?php echo $this->_var['item']['url']; ?>"><?php echo $this->_var['item']['short_name']; ?></a></div>
+            <div class="p-img"><a href="<?php echo $this->_var['item_0_16322900_1363162479']['url']; ?>"><img src="<?php echo $this->_var['item_0_16322900_1363162479']['goods_thumb']; ?>" width="50" height="50" /></a></div>
+            <div class="p-name"><a href="<?php echo $this->_var['item_0_16322900_1363162479']['url']; ?>"><?php echo $this->_var['item_0_16322900_1363162479']['short_name']; ?></a></div>
           </li>
           <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
           <?php else: ?>

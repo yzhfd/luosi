@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:41:"E:/websites/luosi/themes/360buy/index.dwt";i:1;s:55:"E:/websites/luosi/themes/360buy/library/page_header.lbi";i:2;s:52:"E:/websites/luosi/themes/360buy/library/index_ad.lbi";i:3;s:56:"E:/websites/luosi/themes/360buy/library/cat_articles.lbi";i:4;s:55:"E:/websites/luosi/themes/360buy/library/ad_position.lbi";i:5;s:53:"E:/websites/luosi/themes/360buy/library/cat_goods.lbi";i:6;s:55:"E:/websites/luosi/themes/360buy/library/page_footer.lbi";}s:7:"expires";i:1363078669;s:8:"maketime";i:1363075069;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:7:{i:0;s:41:"E:/websites/luosi/themes/360buy/index.dwt";i:1;s:55:"E:/websites/luosi/themes/360buy/library/page_header.lbi";i:2;s:52:"E:/websites/luosi/themes/360buy/library/index_ad.lbi";i:3;s:56:"E:/websites/luosi/themes/360buy/library/cat_articles.lbi";i:4;s:55:"E:/websites/luosi/themes/360buy/library/ad_position.lbi";i:5;s:53:"E:/websites/luosi/themes/360buy/library/cat_goods.lbi";i:6;s:55:"E:/websites/luosi/themes/360buy/library/page_footer.lbi";}s:7:"expires";i:1363166239;s:8:"maketime";i:1363162639;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.1" />
@@ -114,7 +114,18 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
           <li><a href="user.php?act=account_log" target="_blank">资金管理 &gt;</a></li>
         </ul>
       </div>
-                </dd>
+                  <div class="viewlist">
+        <div class="smt">
+          <h4>最近浏览的商品：</h4>
+        </div>
+        <div id="jduc-viewlist" class="smc">
+          <div class="loading-style1" style="display: none;">加载中，请稍候...</div>
+          <ul class="lh hide" style="display: block;">
+                        <li><a title="" target="_blank" href="goods.php?id=55"><img width="50" height="50" alt="" src="images/no_picture.gif"/></a></li>
+                      </ul>
+        </div>
+      </div>
+          </dd>
   </dl>
 </div>
 <div id="settleup" clstag="homepage|keycount|home2012|05a">
@@ -856,7 +867,8 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
               <li class="odd"><a href="article.php?id=42" title="工装夹具的发展" target="_blank">工装夹具的发展</a></li>
               <li ><a href="article.php?id=38" title="仙剑奇侠传桌游热售中！" target="_blank">仙剑奇侠传桌游热售中！</a></li>
             </ul>
-    </div> </div>
+    </div>
+ </div>
   
   <div id="virtuals" class="m m3" data-widget="tabs">
     <div class="fore1 curr" data-widget="tab-item">
@@ -1088,6 +1100,11 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
       </div>
       <div class="mc" data-widget="tab-content">
         <ul class="lh">
+                    <li class="fore1">
+            <div class="p-img ld"> <a href="goods.php?id=55" target="_blank"><img src="images/no_picture.gif" width="130" height="130" alt="" data-img="1"></a> </div>
+            <div class="p-name"><a href="goods.php?id=55" title="" target="_blank">BJ130-08020</a></div>
+            <div class="p-price">售价：<strong> ￥44.28 </strong></div>
+          </li>
                   </ul>
       </div>
     </div>
@@ -1353,6 +1370,7 @@ id="digitals"
 		  	</div>
   
   <span class="clr"></span> </div>
+ 
 <div class="w w1" 
 id="digitals"
  
