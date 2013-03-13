@@ -70,6 +70,9 @@
                     <div class="imgbox">
                         <img src="{$cat_info.cat_img}"/>
                     </div>
+                    <div class="download">
+                        <a href="user.php?act=cad_download&cat_id={$category}">CAD打包下载</a>
+                    </div>
                 </div>
                 <div class="tableContainer" style="width:745px">
                <!-- #BeginLibraryItem "/library/goods_list1.lbi" --><!-- #EndLibraryItem -->

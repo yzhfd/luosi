@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:44:"E:/websites/luosi/themes/360buy/category.dwt";i:1;s:55:"E:/websites/luosi/themes/360buy/library/page_header.lbi";i:2;s:51:"E:/websites/luosi/themes/360buy/library/ur_here.lbi";i:3;s:55:"E:/websites/luosi/themes/360buy/library/goods_list1.lbi";i:4;s:52:"E:/websites/luosi/themes/360buy/library/cat_tree.lbi";i:5;s:53:"E:/websites/luosi/themes/360buy/library/goods_new.lbi";i:6;s:53:"E:/websites/luosi/themes/360buy/library/goods_hot.lbi";i:7;s:51:"E:/websites/luosi/themes/360buy/library/history.lbi";i:8;s:55:"E:/websites/luosi/themes/360buy/library/page_footer.lbi";}s:7:"expires";i:1363166238;s:8:"maketime";i:1363162638;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:9:{i:0;s:44:"E:/websites/luosi/themes/360buy/category.dwt";i:1;s:55:"E:/websites/luosi/themes/360buy/library/page_header.lbi";i:2;s:51:"E:/websites/luosi/themes/360buy/library/ur_here.lbi";i:3;s:55:"E:/websites/luosi/themes/360buy/library/goods_list1.lbi";i:4;s:52:"E:/websites/luosi/themes/360buy/library/cat_tree.lbi";i:5;s:53:"E:/websites/luosi/themes/360buy/library/goods_new.lbi";i:6;s:53:"E:/websites/luosi/themes/360buy/library/goods_hot.lbi";i:7;s:51:"E:/websites/luosi/themes/360buy/library/history.lbi";i:8;s:55:"E:/websites/luosi/themes/360buy/library/page_footer.lbi";}s:7:"expires";i:1363168945;s:8:"maketime";i:1363165345;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
 <meta name="Generator" content="ECSHOP v2.7.1" />
@@ -98,7 +98,7 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
   <dl load='1'>
     <dt class="ld"><s></s><img src="themes/360buy/images/misc/lib/img/e/blank.gif" width="24" height="24" alt="头像"><a href="user.php">用户中心</a><b></b></dt>
     <dd>
-	      <div class="prompt"> <span class="fl">您好，请登录</span> <span class="fr"><a class="btn-login" href="user.php">登录商城</a></span> </div>
+		<div class="prompt">  <span class="fl"><strong>yzhfd</strong></span><span class="fr"><a href="user.php">去我的用户中心首页 &gt;</a></span>            </div>
 	  
       <div class="uclist">
         <ul class="fore1 fl">
@@ -816,6 +816,9 @@ B=pageConfig.FN_GetRandomData(B);$("#key").val(B).bind("focus",function(){if (th
                                                 <div class="description">
                     <div class="imgbox">
                         <img src="data/catimg/1363045319022640683.gif"/>
+                    </div>
+                    <div class="download">
+                        <a href="user.php?act=cad_download&cat_id=325">CAD打包下载</a>
                     </div>
                 </div>
                 <div class="tableContainer" style="width:745px">

@@ -77,6 +77,9 @@ if ($this->_foreach['best_goods']['total'] > 0):
                     <div class="imgbox">
                         <img src="<?php echo $this->_var['cat_info']['cat_img']; ?>"/>
                     </div>
+                    <div class="download">
+                        <a href="user.php?act=cad_download&cat_id=<?php echo $this->_var['category']; ?>">CAD打包下载</a>
+                    </div>
                 </div>
                 <div class="tableContainer" style="width:745px">
                <?php echo $this->fetch('library/goods_list1.lbi'); ?>
@@ -132,13 +135,13 @@ if ($this->_foreach['best_goods']['total'] > 0):
                     </dl>
                     <?php endif; ?>
 
-                    <?php $_from = $this->_var['filter_attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'filter_attr_0_04986000_1363162479');if (count($_from)):
-    foreach ($_from AS $this->_var['filter_attr_0_04986000_1363162479']):
+                    <?php $_from = $this->_var['filter_attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'filter_attr_0_50778500_1363164340');if (count($_from)):
+    foreach ($_from AS $this->_var['filter_attr_0_50778500_1363164340']):
 ?>
                     <dl  >
-                        <dt><?php echo htmlspecialchars($this->_var['filter_attr_0_04986000_1363162479']['filter_attr_name']); ?> ：</dt>
+                        <dt><?php echo htmlspecialchars($this->_var['filter_attr_0_50778500_1363164340']['filter_attr_name']); ?> ：</dt>
                         <dd>
-                            <?php $_from = $this->_var['filter_attr_0_04986000_1363162479']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
+                            <?php $_from = $this->_var['filter_attr_0_50778500_1363164340']['attr_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'attr');if (count($_from)):
     foreach ($_from AS $this->_var['attr']):
 ?>
                             <div><a href='<?php echo $this->_var['attr']['url']; ?>' <?php if ($this->_var['attr']['selected']): ?>class="curr"<?php endif; ?>><?php echo $this->_var['attr']['attr_value']; ?></a></div>

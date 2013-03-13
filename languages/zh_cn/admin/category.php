@@ -23,6 +23,7 @@ $_LANG['cat_desc'] = '分类描述';
 $_LANG['cat_img'] = '分类图片';
 $_LANG['use_img'] = '安装图片';
 $_LANG['cat_video'] = '分类视频';
+$_LANG['cad_down'] = 'CAD打包下载';
 $_LANG['parent_id'] = '上级分类';
 $_LANG['sort_order'] = '排序';
 $_LANG['measure_unit'] = '数量单位';

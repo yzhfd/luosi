@@ -173,6 +173,11 @@ if ($this->_foreach['filter_attr_tab']['total'] > 0):
     <td> <input type="text" name="cat_video" value="<?php echo $this->_var['cat_info']['cat_video']; ?>" size="40" />
     </td>
   </tr>
+   <tr>
+    <td class="label"><?php echo $this->_var['lang']['cad_down']; ?></td>
+    <td> <input type="text" name="cat_down" value="<?php echo $this->_var['cat_info']['cad_down']; ?>" size="40" />
+    </td>
+  </tr>
      <tr>
         <td class="label"><?php echo $this->_var['lang']['cat_desc']; ?>:</td>
         <td>
